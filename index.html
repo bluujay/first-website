@@ -3,46 +3,49 @@
     <head lang="en-us">
         <meta charset="UTF-8">
         <title>Landing Page</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <div class="header">
-            <h1 class="logo">CodeStars</h1>
+            <h1 class="logo">CodeStars 🌟</h1>
                 <ul>
-                    <li><a href=#>Who Are We?</a></li>
-                    <li><a href=#>Get Hired</a></li>
-                    <li><a href=#>Alumni</a></li>
+                    <li><a href=#about>Who Are We?</a></li>
+                    <li><a href=#get-hired>Get Hired</a></li>
+                    <li><a href=#alumni>Alumni</a></li>
                 </ul>
         </div>
 
-        <div class="hero">
-            <h1>This coding bootcamp will disrupt your life.</h1>
-            <p>Our alumni have higher professional placement rates than all other bootcamps. Combined.</p>
-            <button>Sign up</button>
-            <img src="./img/hero.jpg">
+        <div id="about" class="hero">
+            <div class="text">
+                <h1 class="main">This coding bootcamp will disrupt your <em>life.</em></h1>
+                <p>Our alumni have professional placement rates higher than all other bootcamps. <em>Combined.</em></p>
+                <p>What does that mean? There's one way to find out.</p>
+                <button>Sign up</button>
+            </div>
+            <img src="./img/hero.jpg" alt="smiling corporate people" width=400px>
         </div>
 
-        <div class="random-info">
+        <div id="alumni" class="info">
             <h1>Here are some of our alumni!</h1>
             <ul>
                 <li>
-                    <img src="img/test1.jpg" alt="smiling professional woman" width=100px>
+                    <img src="img/test1.jpg" alt="smiling professional woman" width=150px>
                     <p>Hannah Nguyen, Senior DevOps at Poodle</p>
                 </li>
 
                 <li>
-                    <img src="img/test2.jpg" alt="smiling professional woman" width=100px>
+                    <img src="img/test2.jpg" alt="smiling professional woman" width=150px>
                     <p>Stephanie Smith, UX/UI Design Lead at Alphabeta</p>
                 </li>
 
                 <li>
-                    <img src="img/test3.jpg" alt="smiling professional woman" width=100px>
+                    <img src="img/test3.jpg" alt="smiling professional woman" width=150px>
                     <p>Elinah Miller, QA Engineer at Metal</p>
                 </li>
 
                 <li>
-                    <img src="img/test4.jpg" alt="smiling professional man" width=100px>
+                    <img src="img/test4.jpg" alt="smiling professional man" width=150px>
                     <p>Jared Spinella, Software Developer at Toys 'R Us</p>
                 </li>
             </ul>
@@ -53,9 +56,11 @@
             <p>-Penelope Quarter, Senior Developer at Metal</p>
         </div>
 
-        <div class="call">
-            <h3>You know you want to. It's time!</h3>
-            <p>Sign up for an info session by clicking that button right over there!</p>
+        <div id="get-hired" class="call">
+            <div class="text">
+                <h3>You know you want to. It's time!</h3>
+                <p>Sign up for an info session by clicking that button right over there!</p>
+            </div>
             <button>Sign up</button>
         </div>
         
